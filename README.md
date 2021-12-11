@@ -13,5 +13,5 @@ cat input2.txt | go run $GOROOT/src/userpermission/cmd/main.go | diff -u output2
 ```
 * Change directory to $GOROOT/src/userpermission and then run test
 ```
-go run ./...
+go test ./...
 ```
